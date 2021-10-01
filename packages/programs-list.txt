@@ -1,3 +1,0 @@
-thunderbird
-keepass
-discord

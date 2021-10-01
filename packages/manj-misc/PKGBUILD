@@ -1,0 +1,10 @@
+pkgname=manj-base
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Misc packages"
+arch=('any')
+license=('MIT')
+depends=(
+
+)
+

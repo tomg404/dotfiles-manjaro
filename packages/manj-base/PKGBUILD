@@ -1,0 +1,28 @@
+pkgname=manj-base
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Base system configuration"
+arch=('any')
+license=('MIT')
+depends=(
+    # AUR packages
+    'tldr++'
+    'nerd-fonts-meslo'
+    
+    # Official packages
+    'alacritty'
+    'fzf'
+    'zsh'
+    'zsh-theme-powerlevel10k'
+    'git'
+    'wget'
+    'htop'
+    'kcalc'
+    'vim'
+    'zsh-completions'
+    'zip'
+    'unzip'
+    'tree'
+    'exa'
+)
+

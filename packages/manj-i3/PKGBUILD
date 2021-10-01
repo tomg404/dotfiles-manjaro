@@ -1,0 +1,13 @@
+pkgname=manj-base
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="i3 packages"
+arch=('any')
+license=('MIT')
+depends=(
+    i3-gaps
+    i3status
+    i3lock
+    dmenu
+)
+
