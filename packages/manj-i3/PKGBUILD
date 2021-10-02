@@ -9,5 +9,6 @@ depends=(
     i3status
     i3lock
     dmenu
+    feh
 )
 
