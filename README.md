@@ -11,4 +11,4 @@ sh install_yay.sh
 before you do anything else.
 
 ## Disclaimer
-This package is meant for a fresh and clean first installation of manjaro linux.
+This repo is meant for a fresh and clean first installation of manjaro linux.

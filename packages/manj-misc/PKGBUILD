@@ -5,6 +5,10 @@ pkgdesc="Misc packages"
 arch=('any')
 license=('MIT')
 depends=(
+    # AUR Packages
+    spotify
 
+    discord
+    telegram-desktop
 )
 
