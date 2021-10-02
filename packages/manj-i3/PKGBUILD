@@ -5,10 +5,15 @@ pkgdesc="i3 packages"
 arch=('any')
 license=('MIT')
 depends=(
+    # AUR packages
+    alacritty-themes
+    polybar
+
     i3-gaps
     i3status
     i3lock
     dmenu
     feh
+    picom
 )
 

@@ -1,5 +1,5 @@
 # Set wallpaper using feh
-exec --no-startup-id feh --bg-scale /home/tomg/.config/i3/wallpapers/japan-night.jpg --no-fehbg
+exec --no-startup-id feh --bg-scale /home/tomg/.config/i3/wallpapers/moon-night.jpg --no-fehbg
 
 # Turn on numpad
 exec --no-startup-id numlockx on
