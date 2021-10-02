@@ -10,5 +10,6 @@ depends=(
 
     discord
     telegram-desktop
+    flameshot
 )
 
