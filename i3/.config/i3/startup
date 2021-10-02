@@ -1,8 +1,11 @@
 # Set wallpaper using feh
-#exec --no-startup-id feh --bg-scale /path/to/img --no-fehbg
+exec --no-startup-id feh --bg-scale /home/tomg/.config/i3/wallpapers/japan-night.jpg --no-fehbg
 
 # Turn on numpad
 exec --no-startup-id numlockx on
+
+# Start picom
+exec --no-startup-id picom
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.

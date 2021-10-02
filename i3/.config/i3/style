@@ -29,6 +29,9 @@ set $transparent #00000000
 # Only show borders when multiple windows are open
 smart_borders on
 
+# Set border
+for_window [class="^.*"] border pixel 2
+
 # Windows button
 set $mod Mod4
 

@@ -1,0 +1,86 @@
+# Configuration for Alacritty
+
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  dynamic_title: true
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: false
+  decorations: full
+  startup_mode: Windowed
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: MesloLGS Nerd Font
+    syle: RegularForPowerline
+  size: 11.0
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  use_thin_strokes: true
+  draw_bold_text_with_bright_colors: true
+
+colors:
+  name: TokyoNight Night
+  author: Folke
+  # Default colors
+  primary:
+    background: '0x1a1b26'
+    foreground: '0xc0caf5'
+  # Normal colors
+  normal:
+    black: '0x15161E'
+    red: '0xf7768e'
+    green: '0x9ece6a'
+    yellow: '0xe0af68'
+    blue: '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan: '0x7dcfff'
+    white: '0xa9b1d6'
+  # Bright colors
+  bright:
+    black: '0x414868'
+    red: '0xf7768e'
+    green: '0x9ece6a'
+    yellow: '0xe0af68'
+    blue: '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan: '0x7dcfff'
+    white: '0xc0caf5'
+  indexed_colors:
+    - { index: 16, color: '0xff9e64' }
+    - { index: 17, color: '0xdb4b4b' }
+background_opacity: 0.6
+
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+  hide_when_typing: true
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+  save_to_clipboard: true
+
+cursor:
+  style: Underline
+  unfocused_hollow: true
+
+live_config_reload: true
+working_directory: None
+
+debug:
+  render_time: true
+  persistent_logging: false
+  log_level: Warn
+  print_events: true
+  ref_test: false
