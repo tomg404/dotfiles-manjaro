@@ -12,13 +12,19 @@ sh install_yay.sh
 ```
 before you do anything else.
 
+After this you can start installing the packages you like.
+To symlink all config files/directories in your .config, run:
+```shell
+sh install.sh
+```
+
 ## Desktop configuration
 * Windows manager: **i3-gaps** [(config)](i3/.config/i3/config)
 * Console: **alacritty** [(config)](alacritty/.config/alacritty/alacritty.yml)
 * Console-theme: **Erebus** (alacritty-themes)
 * Compositor: **picom** [(config)](picom/.config/picom/picom.conf)
 * Launcher: **Rofi** (**TODO!**)
-* Bar: (**TODO!**)
+* Bar: **polybar** [(config)](polybar/.config/polybar)
 ![screenshot](screenshots/1.jpg)
 
 ## Disclaimer
