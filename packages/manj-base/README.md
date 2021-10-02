@@ -1,6 +1,8 @@
 ## base package
 ### AUR packages
-`yay --aur -S --asdeps tldr++ nerd-fonts-meslo`
+```shell
+yay --aur -S --asdeps tldr++ nerd-fonts-meslo
+```
 
 ### Official packages
 ```shell
