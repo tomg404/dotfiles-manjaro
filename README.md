@@ -25,6 +25,7 @@ sh install.sh
 * Compositor: **picom** [(config)](picom/.config/picom/picom.conf)
 * Launcher: **Rofi** (**TODO!**)
 * Bar: **polybar** [(config)](polybar/.config/polybar)
+* Font: **Fira Code** [(aur)](https://aur.archlinux.org/packages/nerd-fonts-fira-code/)
 ![screenshot](screenshots/1.jpg)
 
 ## Disclaimer

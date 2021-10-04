@@ -48,9 +48,9 @@ module-margin-right = 1
 ;; FONTS
 ;; -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 ; Module fonts
-font-0 = "FiraMono Nerd Font:style=Regular:size=10;0"
+font-0 = "FiraCode Nerd Font:style=Regular:size=10;0"
 ; Poweroff and Application fonts
-font-1 = "FiraMono Nerd Font:style=Bold:size=15;2"
+font-1 = "FiraCode Nerd Font:style=Bold:size=15;2"
 
 
 modules-left = i3
