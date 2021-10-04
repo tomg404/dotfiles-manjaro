@@ -8,7 +8,7 @@ sudo pacman -S base-devel vim
 ```
 and
 ```shell
-sh install_yay.sh
+sudo sh install_yay.sh
 ```
 before you do anything else.
 
