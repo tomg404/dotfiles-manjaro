@@ -141,16 +141,28 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:console"
-set $ws2 "2:web"
-set $ws3 "3:code"
-set $ws4 "4"
-set $ws5 "5"	
+set $ws1 1 
+set $ws2 2 爵
+set $ws3 3 
+set $ws4 4 
+set $ws5 5 
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+
+# workspace 1 always on right monitor, 2 always on left monitor<
+exec i3-msg 'workspace 2 爵, move workspace to output DP-0'
+exec i3-msg 'workspace 1 , move workspace to output DP-2'
+
+# assign workspaces
+assign [class="discord"] 4 
+assign [class="spotify"] 5 
+
+# move focused workspace between monitors
+bindsym $mod+Ctrl+greater move workspace to output right
+bindsym $mod+Ctrl+less move workspace to output left
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
