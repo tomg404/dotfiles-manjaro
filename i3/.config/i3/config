@@ -87,7 +87,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -show drun -no-show-match -show-icons -font "FiraCode Nerd Font 10" '
 
 # change focus
 bindsym $mod+j focus left
@@ -138,6 +138,9 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
+
+# take screenshot
+bindsym Print exec --no-startup-id flameshot gui
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
