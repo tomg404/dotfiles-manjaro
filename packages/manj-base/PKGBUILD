@@ -8,6 +8,7 @@ depends=(
     # AUR packages
     'tldr++'
     'nerd-fonts-meslo'
+    'nerd-fonts-fira-code'
     
     # Official packages
     'alacritty'
@@ -22,6 +23,9 @@ depends=(
     'zsh-completions'
     'zip'
     'unzip'
+    'stow'
+    'networkmanager'
+    'flameshot'
     'tree'
     'exa'
 )
