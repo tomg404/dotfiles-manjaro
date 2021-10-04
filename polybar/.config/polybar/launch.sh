@@ -3,15 +3,16 @@
 # Terminate already running bar instances
 killall -q polybar
 
-# Launch bars
-polybar main &
+# Launch bar
+# polybar main &
 
-#if type "xrandr"; then
-#  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-#    MONITOR=$m polybar --reload config &
-#  done
-#else
-#  polybar --reload config &
-#fi
+# Launch bar on both monitors
+if type "xrandr"; then
+ for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+   MONITOR=$m polybar --reload main &
+ done
+else
+ polybar --reload main &
+fi
 
-echo "Bars launched..."
+echo "Bar(s) launched..."
