@@ -1,3 +1,6 @@
+# Launch polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
 # Set wallpaper using feh
 exec --no-startup-id feh --bg-scale /home/tomg/.config/i3/wallpapers/moon-night.jpg --no-fehbg
 
